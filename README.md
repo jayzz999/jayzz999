@@ -62,12 +62,12 @@ I'm an AI & ML Engineer passionate about building end-to-end intelligent systems
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> GitHub Stats
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=jayzz999&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F7B93E&icon_color=F7B93E&text_color=FFFFFF&count_private=true" />
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=jayzz999&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F7B93E&icon_color=F7B93E&text_color=FFFFFF&count_private=true" />
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=jayzz999&theme=radical&hide_border=true&background=0D1117&ring=F7B93E&fire=F7B93E&currStreakLabel=F7B93E" />
 </div>
 
 <div align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jayzz999&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F7B93E&text_color=FFFFFF&langs_count=8" />
+  <img width="40%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jayzz999&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F7B93E&text_color=FFFFFF&langs_count=8" />
 </div>
 
 <br/>
@@ -94,7 +94,7 @@ I'm an AI & ML Engineer passionate about building end-to-end intelligent systems
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=jayzz999&theme=radical&no-frame=true&no-bg=true&margin-w=6&column=8" />
+  <img src="https://github-trophies.vercel.app/?username=jayzz999&theme=radical&no-frame=true&no-bg=true&margin-w=6&column=8" />
 </div>
 
 <br/>
