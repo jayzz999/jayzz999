@@ -91,7 +91,7 @@ I'm an AI & ML Engineer passionate about building end-to-end intelligent systems
 
 <br/>
 
-## <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/about_me.gif" width="28"> GitHub Trophies
+## 🏆 GitHub Trophies
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=jayzz999&theme=radical&no-frame=true&no-bg=true&margin-w=6&column=8" />
@@ -99,7 +99,7 @@ I'm an AI & ML Engineer passionate about building end-to-end intelligent systems
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Awal/Tarikul-Islam-Awal/main/assets/images/trollface.gif" width="28"> Contribution Snake
+## 🐍 Contribution Snake
 
 <div align="center">
   <picture>
