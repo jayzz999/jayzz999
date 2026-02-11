@@ -1,0 +1,86 @@
+<svg width="854" height="180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#1a1b4b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4c1d95;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#7c3aed;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0.3" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="854" height="180" fill="url(#grad)"/>
+
+  <!-- Animated wave 1 -->
+  <path fill="url(#grad2)" opacity="0.5">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite"
+      values="M0,120 C150,80 300,160 427,120 C554,80 704,160 854,120 L854,180 L0,180 Z;
+              M0,140 C150,100 300,140 427,100 C554,140 704,100 854,140 L854,180 L0,180 Z;
+              M0,120 C150,80 300,160 427,120 C554,80 704,160 854,120 L854,180 L0,180 Z"/>
+  </path>
+
+  <!-- Animated wave 2 -->
+  <path fill="rgba(255,255,255,0.05)">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="M0,140 C200,100 400,170 600,130 C700,110 800,150 854,140 L854,180 L0,180 Z;
+              M0,130 C200,160 400,110 600,150 C700,130 800,120 854,150 L854,180 L0,180 Z;
+              M0,140 C200,100 400,170 600,130 C700,110 800,150 854,140 L854,180 L0,180 Z"/>
+  </path>
+
+  <!-- Bottom wave -->
+  <path fill="#0d1117" opacity="0.6">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="M0,160 C100,145 250,175 427,155 C604,135 750,170 854,155 L854,180 L0,180 Z;
+              M0,155 C100,170 250,140 427,160 C604,180 750,145 854,165 L854,180 L0,180 Z;
+              M0,160 C100,145 250,175 427,155 C604,135 750,170 854,155 L854,180 L0,180 Z"/>
+  </path>
+
+  <!-- Sparkle dots -->
+  <circle cx="100" cy="40" r="1.5" fill="white" opacity="0.6">
+    <animate attributeName="opacity" dur="3s" values="0.2;0.8;0.2" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="250" cy="25" r="1" fill="white" opacity="0.4">
+    <animate attributeName="opacity" dur="2.5s" values="0.1;0.7;0.1" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="400" cy="35" r="1.5" fill="white" opacity="0.5">
+    <animate attributeName="opacity" dur="4s" values="0.3;0.9;0.3" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="20" r="1" fill="white" opacity="0.3">
+    <animate attributeName="opacity" dur="3.5s" values="0.1;0.6;0.1" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="750" cy="45" r="1.5" fill="white" opacity="0.5">
+    <animate attributeName="opacity" dur="2s" values="0.2;0.8;0.2" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="180" cy="60" r="1" fill="#f59e0b" opacity="0.4">
+    <animate attributeName="opacity" dur="3s" values="0.1;0.5;0.1" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="50" r="1" fill="#f59e0b" opacity="0.3">
+    <animate attributeName="opacity" dur="2.8s" values="0.1;0.6;0.1" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="680" cy="30" r="1.5" fill="#a78bfa" opacity="0.4">
+    <animate attributeName="opacity" dur="3.2s" values="0.2;0.7;0.2" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Main title text -->
+  <text x="427" y="72" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="white" filter="url(#glow)">
+    Jayanth
+  </text>
+
+  <!-- Subtitle text -->
+  <text x="427" y="105" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="rgba(255,255,255,0.85)">
+    AI &amp; ML Engineer
+  </text>
+</svg>

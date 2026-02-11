@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Jayanth&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20%26%20ML%20Engineer&descSize=18&descAlignY=52&descColor=fff"/>
+<img width="100%" src="https://raw.githubusercontent.com/jayzz999/jayzz999/main/assets/header.svg"/>
 
 <div align="center">
 
@@ -91,14 +91,6 @@ I'm an AI & ML Engineer passionate about building end-to-end intelligent systems
 
 <br/>
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-trophies.vercel.app/?username=jayzz999&theme=radical&no-frame=true&no-bg=true&margin-w=6&column=8" />
-</div>
-
-<br/>
-
 ## 🐍 Contribution Snake
 
 <div align="center">
@@ -127,4 +119,4 @@ I'm an AI & ML Engineer passionate about building end-to-end intelligent systems
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
+<img width="100%" src="https://raw.githubusercontent.com/jayzz999/jayzz999/main/assets/footer.svg"/>

@@ -1,0 +1,43 @@
+<svg width="854" height="120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fgrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#1a1b4b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4c1d95;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="fgrad2" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#7c3aed;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="854" height="120" fill="url(#fgrad)"/>
+
+  <!-- Top wave (inverted) -->
+  <path fill="#0d1117" opacity="0.6">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="M0,25 C100,40 250,5 427,25 C604,45 750,10 854,25 L854,0 L0,0 Z;
+              M0,30 C100,10 250,45 427,20 C604,0 750,40 854,15 L854,0 L0,0 Z;
+              M0,25 C100,40 250,5 427,25 C604,45 750,10 854,25 L854,0 L0,0 Z"/>
+  </path>
+
+  <!-- Wave overlay -->
+  <path fill="url(#fgrad2)" opacity="0.5">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite"
+      values="M0,40 C150,60 300,20 427,40 C554,60 704,20 854,40 L854,0 L0,0 Z;
+              M0,30 C150,10 300,50 427,30 C554,10 704,50 854,30 L854,0 L0,0 Z;
+              M0,40 C150,60 300,20 427,40 C554,60 704,20 854,40 L854,0 L0,0 Z"/>
+  </path>
+
+  <!-- Subtle wave -->
+  <path fill="rgba(255,255,255,0.05)">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="M0,35 C200,55 400,15 600,35 C700,45 800,25 854,35 L854,0 L0,0 Z;
+              M0,30 C200,10 400,50 600,25 C700,15 800,40 854,20 L854,0 L0,0 Z;
+              M0,35 C200,55 400,15 600,35 C700,45 800,25 854,35 L854,0 L0,0 Z"/>
+  </path>
+</svg>
